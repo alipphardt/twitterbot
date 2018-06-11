@@ -15,7 +15,7 @@ The following is sample code creating a bot and sending tweets.
 sampleBot = TwitterBot(twitter_consumer_key='COPY KEY HERE', twitter_consumer_secret='COPY SECRET HERE', 
                        twitter_access_key='COPY KEY HERE', twitter_access_secret='COPY SECRET HERE', 
                        search_terms=['LIST OF SEARCH TERMS'], search_on='news',
-                       bitly_access_token='COPY OPTIONAL BITLY TOKEN HERE', bitly_account='COPY OPTIONAL BITLY ACCOUNT HERE',
+                       bitly_access_token='COPY OPTIONAL BITLY TOKEN HERE', 
                        news_api_key='COPY NEWS API KEY HERE')
                             
 # Configure tweet and create lists for tweets based on search_on parameter
